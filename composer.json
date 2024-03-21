@@ -1,0 +1,17 @@
+{
+    "name": "mediacloud/mediacloud",
+    "require": {
+        "php": ">=7.0",
+        "obregonco/backblaze-b2": "^1.1",
+        "react/event-loop": "^1.5",
+        "react/promise": "^3.1",
+        "phpmailer/phpmailer": "^6.9",
+        "almasaeed2010/adminlte": "~3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Settings\\": "settings/",
+            "Model\\": "model/"
+        }
+    }
+}
